@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joyce Anne Atienza — Full-stack Developer & UI Designer</title>
+  <meta name="description" content="Portfolio of Joyce Anne Atienza, BSIT student at STI College Batangas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-wrap">
+      <a class="logo" href="#">JA<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+      </ul>
+      <div class="nav-right">
+        <a class="nav-cta" href="#footer">Let's talk</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-bg">
+    <div class="hero">
+      <div class="hero-left">
+        <span class="hero-eyebrow">BS Information Technology · STI College Batangas</span>
+        <h1><span class="hero-greeting">Hi, I'm</span><br><em>Joyce Anne</em><br>Atienza.</h1>
+        <p class="hero-desc">UI designer and developer</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#projects">
+            View my work
+            <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+          <a class="btn-outline" href="#about">
+            About me
+            <svg viewBox="0 0 16 16"><circle cx="8" cy="5.5" r="2.5"/><path d="M3 13c0-2.76 2.24-5 5-5s5 2.24 5 5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="photo-wrap">
+          <img src="images/portrait1.png" alt="Joyce Anne Atienza">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section class="about-strip" id="about">
+      <div class="wrap">
+        <div class="about-inner">
+          <div class="about-left">
+            <span class="section-label">About me</span>
+            <h2 class="section-heading">Developer, designer and a leader.</h2>
+            <p>I'm a fourth-year BSIT student at STI College Batangas with a passion for UI design. I enjoy turning ideas into clean, functional interfaces — from wireframes in Figma to fully built web pages — where design and code meet.</p>
+            <p>I care about how things look and feel. Whether it's picking the right layout, spacing, or color, I want every screen I build to feel intentional and easy to use. I also do full-stack development, but design is where I'm most at home.</p>
+          </div>
+          <div class="skills-panel">
+            <ul class="skills-flat">
+              <li>SQL Management Server</li>
+              <li>Figma</li>
+              <li>Blender</li>
+              <li>Canva</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="work-header">
+          <div>
+            <span class="section-label">Projects</span>
+            <h2 class="section-heading">Systems built for real clients.</h2>
+          </div>
+        </div>
+        <div class="projects-grid">
+          <article class="proj-card">
+            <div class="proj-thumb">
+              <img src="images/eurasia.png" alt="Eurasia Restaurant">
+              <span class="proj-tag">Full-stack · React</span>
+            </div>
+            <div class="proj-info">
+              <div>
+                <h3>Eurasia Restaurant System</h3>
+                <p>Capstone project · 2026</p>
+              </div>
+              <a class="proj-arrow" href="https://eurasiarestaurant.vercel.app/" target="_blank" rel="noopener">
+                <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-thumb">
+              <img src="images/sonlight.png" alt="Sonlight">
+              <span class="proj-tag">UI Design · Figma</span>
+            </div>
+            <div class="proj-info">
+              <div>
+                <h3>Sonlight Equipment Booking</h3>
+                <p>UI prototype · 2025</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE + CERTIFICATES -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <span class="section-label">Experience</span>
+        <h2 class="section-heading">What I've built and learned.</h2>
+        <div class="exp-list">
+          <div class="exp-item">
+            <div class="exp-year">2026</div>
+            <div class="exp-body">
+              <h3>Capstone Project Leader & System Developer</h3>
+              <p class="exp-where">Online Reservation and Payment Verification System — Eurasia Restaurant</p>
+              <p class="exp-desc">Led a 4-person team to build and deploy a full-stack web system for a fine-dining restaurant in San Jose, Batangas. Conducted client interviews, designed the UI, and developed the React frontend, Node.js/Express backend, and MySQL database. Evaluated by 178 respondents using ISO 9126 — all six quality criteria rated Excellent.</p>
+              <div class="exp-tags">
+                <span>React</span><span>Node.js</span><span>Express.js</span><span>MySQL</span><span>Vercel</span>
+              </div>
+            </div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-year">2025</div>
+            <div class="exp-body">
+              <h3>Assistant Leader & UI Designer</h3>
+              <p class="exp-where">Sonlight — Online Booking for Lights and Sound Equipment Rental Stores</p>
+              <p class="exp-desc">Assisted the group leader in coordinating the team and created interactive wireframes and UI prototypes in Figma based on the system design requirements.</p>
+              <div class="exp-tags">
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CERTIFICATES -->
+        <div class="cert-header">
+          <span class="section-label">Certificates</span>
+        </div>
+        <div class="cert-list">
+          <div class="cert-item">
+            <div class="cert-body">
+              <h3>AWS Academy Cloud Foundations</h3>
+              <p>Training Badge · Amazon Web Services</p>
+            </div>
+            <span class="cert-year">2026</span>
+          </div>
+          <div class="cert-item">
+            <div class="cert-body">
+              <h3>SAP S/4HANA: SD, MM, PP, FI, CO Modules</h3>
+              <p>Global Bike</p>
+            </div>
+            <span class="cert-year">2025</span>
+          </div>
+          <div class="cert-item">
+            <div class="cert-body">
+              <h3>Java Fundamentals</h3>
+              <p>Oracle Academy</p>
+            </div>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <p class="foot-headline">Let's create<br>something<br>great together.</p>
+        </div>
+        <dl class="foot-links">
+          <div><dt>Email</dt><dd><a href="mailto:joyceanneatienza6@gmail.com">joyceanneatienza6@gmail.com</a></dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+639369428962">0936-942-8962</a></dd></div>
+          <div><dt>Location</dt><dd>Mapulo, Taysan, Batangas</dd></div>
+        </dl>
+      </div>
+      <p class="copy">Character references available upon request. © 2027 Joyce Anne B. Atienza</p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <dialog id="lb" aria-label="Image viewer">
+    <img id="lb-img" alt="">
+    <div class="lb-bar">
+      <span class="lb-cap" id="lb-cap"></span>
+      <button class="lb-close" id="lb-close">Close</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
